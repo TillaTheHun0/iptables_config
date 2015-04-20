@@ -3,13 +3,13 @@ Simple iptables script to secure *nix box. Accepts params for ports to open.
 
 #How to Use
 
-*clone this repo
-*navigate to this repo
-*make file executable:
+* clone this repo
+* navigate to this repo
+* make file executable:
 ```
 chmod +x iptables_config.sh
 ```
-*run the script
+* run the script
 ```
 ./iptables_config
 ```
@@ -22,4 +22,4 @@ To prevent yourself being locked out of a box you're ssh'd in to, the shell scri
 this script accepts line arguments. These arguments should be ports that you wish to keep open ie. 80 for http, 25 smtp etc. It will loop through these and open the indicated ports.
 
 #Logging
-By default, two unbound logs are managed in *var/log/messages *. One logs all dropped packets. The other logs any UDP flooding attempts. It is set by default to have a flood limit of 50/s
+By default, two unbound logs are managed in *var/log/messages* . One logs all dropped packets. The other logs any UDP flooding attempts. It is set by default to have a flood limit of 50/s
