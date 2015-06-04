@@ -1,5 +1,8 @@
 #!/bin/bash 
 #
+#Author: Tyler Hall
+#Title: Iptables configuration
+###################
 #notes:
 ##Accept packets from trusted IP addresses
 ##iptables -A INPUT -s 192.168.0.4 -j ACCEPT # change the IP address as appropriate
