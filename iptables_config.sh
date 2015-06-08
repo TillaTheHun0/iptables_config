@@ -2,6 +2,8 @@
 #
 #Author: Tyler Hall
 #Title: Iptables configuration
+#Use at your own risk
+#MIT License
 ###################
 #notes:
 ##Accept packets from trusted IP addresses
