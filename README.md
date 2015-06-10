@@ -1,5 +1,5 @@
 # iptables_config
-Simple iptables script to secure *nix box. Accepts params for ports to open.
+Simple iptables script to secure *nix box. Accepts command line arguments for ports to open.
 
 #How to Use
 
